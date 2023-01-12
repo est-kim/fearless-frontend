@@ -243,8 +243,3 @@ def api_list_states(request):
         state_list.append({"name": state.name, "abbreviation": state.abbreviation})
 
     return JsonResponse({"states": state_list})
-
-
-# @require_http_methods(["GET"])
-# def api_list_locations(request):
-#     locations =
