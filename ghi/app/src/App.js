@@ -1,3 +1,4 @@
+import { Routes, Route } from "react-router-dom"
 import Nav from './Nav'
 
 function App(props) {
@@ -7,7 +8,8 @@ function App(props) {
   return (
     <>
     <Nav />
-<div className="container">
+    <div className="App">
+      <Routes>
       <table className="table table-striped">
         <thead>
           <tr>
