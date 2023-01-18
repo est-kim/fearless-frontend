@@ -3,6 +3,7 @@ import { Routes, Route } from "react-router-dom"
 import Nav from './Nav'
 import AttendeesList from './AttendeesList';
 import LocationForm from './LocationForm';
+import ConferenceForm from './ConferenceForm';
 
 
 function App(props) {
@@ -13,7 +14,8 @@ function App(props) {
     <>
       <Nav />
       <div className="container">
-        <LocationForm />
+        {/* <LocationForm /> */}
+        <ConferenceForm />
         {/* <AttendeesList attendees={props.attendees} /> */}
       </div>
     </>
