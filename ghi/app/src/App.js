@@ -22,8 +22,8 @@ function App(props) {
           <Route path="new" element={<LocationForm />}/>
         </Route>
         <Route path="attendees" element={<AttendeesList attendees={props.attendees} />}>
-          <Route path="new" element={<AttendeeForm />}/>
         </Route>
+        <Route path="/attendees/new" element={<AttendeeForm />}></Route>
         <Route path="conferences">
           <Route path="new" element={<ConferenceForm />}/>
         </Route>

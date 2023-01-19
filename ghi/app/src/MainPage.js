@@ -95,7 +95,7 @@ const MainPage = (props) =>  {
         <h1 className="display-5 fw-bold">Conference GO!</h1>
         <div className="col-lg-6 mx-auto">
           <p className="lead mb-4">
-            The only resource you'll ever need to plan an run your in-person or
+            The only resource you'll ever need to plan and run your in-person or
             virtual conference for thousands of attendees and presenters.
           </p>
           <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
